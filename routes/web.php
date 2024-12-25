@@ -6,6 +6,6 @@ Route::get('/', function () {
     return "Worked";
 });
 
-Route::get('/home', function () {
+Route::get('/home/', function () {
     return "Home";
 });
