@@ -8,5 +8,5 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('home', function () {
-    return "Home";
+    return view('welcome');
 });
