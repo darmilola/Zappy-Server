@@ -7,6 +7,6 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/home', function () {
+Route::get('home', function () {
     return "Home";
 });
